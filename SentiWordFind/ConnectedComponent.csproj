@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E7CE92CE-D936-4362-8BDD-F9539BB2DB58}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project</RootNamespace>
+    <AssemblyName>Project</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Compile Include="Classifiers.cs" />
+    <Compile Include="CWNUndirectedGraph.cs" />
+    <Compile Include="OpinionFinder.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties.cs" />
+    <Compile Include="Util.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Proxem.Antelope.Coreferences, Version=0.8.0.42081, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Proxem\Antelope\bin\Proxem.Antelope.Coreferences.dll</HintPath>
+    </Reference>
+    <Reference Include="Proxem.Antelope.Disambiguation, Version=0.8.0.42081, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Proxem\Antelope\bin\Proxem.Antelope.Disambiguation.dll</HintPath>
+    </Reference>
+    <Reference Include="Proxem.Antelope.Interfaces, Version=0.8.0.42077, Culture=neutral, PublicKeyToken=35d373dc36d76809, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Proxem\Antelope\bin\Proxem.Antelope.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Proxem.Antelope.Lexicon, Version=0.8.0.42082, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Proxem\Antelope\bin\Proxem.Antelope.Lexicon.dll</HintPath>
+    </Reference>
+    <Reference Include="Proxem.Antelope.LinkGrammar, Version=0.8.0.42082, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Proxem\Antelope\bin\Proxem.Antelope.LinkGrammar.dll</HintPath>
+    </Reference>
+    <Reference Include="Proxem.Antelope.Semantics, Version=0.8.0.42084, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Proxem\Antelope\bin\Proxem.Antelope.Semantics.dll</HintPath>
+    </Reference>
+    <Reference Include="Proxem.Antelope.Stanford, Version=0.8.0.42083, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Proxem\Antelope\bin\Proxem.Antelope.Stanford.dll</HintPath>
+    </Reference>
+    <Reference Include="Proxem.Antelope.Tagging, Version=0.8.0.42083, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Proxem\Antelope\bin\Proxem.Antelope.Tagging.dll</HintPath>
+    </Reference>
+    <Reference Include="Proxem.Antelope.Tagmatica, Version=0.8.0.42084, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Proxem\Antelope\bin\Proxem.Antelope.Tagmatica.dll</HintPath>
+    </Reference>
+    <Reference Include="Proxem.Antelope.Tools, Version=0.8.0.42080, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Proxem\Antelope\bin\Proxem.Antelope.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="Proxem.GUI, Version=0.8.0.42078, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Proxem\Antelope\bin\Proxem.GUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Proxem.NanoProlog, Version=0.8.0.42078, Culture=neutral, PublicKeyToken=92fce26f0b6e37ea, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Proxem\Antelope\bin\Proxem.NanoProlog.dll</HintPath>
+    </Reference>
+    <Reference Include="Proxem.ShortestPath, Version=0.8.0.42078, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Proxem\Antelope\bin\Proxem.ShortestPath.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickGraph, Version=3.3.40824.0, Culture=neutral, PublicKeyToken=f3fb40175eec2af3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Connected Component\lib\QuickGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickGraph.Data, Version=3.3.40824.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Connected Component\lib\QuickGraph.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\opFinder.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\opFinder_orig.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\opFinder_test.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\opFinder_train.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Info.txt" />
+    <Content Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

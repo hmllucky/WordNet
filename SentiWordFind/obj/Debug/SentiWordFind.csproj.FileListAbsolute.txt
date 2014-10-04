@@ -1,0 +1,106 @@
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\SentiWordFind.exe.config
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\obj\Debug\ResolveAssemblyReference.cache
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\data\opFinder_orig.txt
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\data\opFinder.txt
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\data\opFinder_test.txt
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\data\opFinder_train.txt
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Coreferences.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Disambiguation.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Interfaces.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Lexicon.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.LinkGrammar.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Semantics.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Stanford.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Tagging.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Tagmatica.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Tools.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.GUI.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.NanoProlog.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.ShortestPath.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\IKVM.Runtime.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\TagParser.jar.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\log4net.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\IKVM.OpenJDK.ClassLibrary.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\StanfordParser.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\Lithium.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\HtmlLib.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\SmartThreadPool.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\Stanford-Parser.jar.dll
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.NanoProlog.xml
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\StanfordParser.xml
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\obj\Debug\SentiWordFind.exe
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\obj\Debug\SentiWordFind.pdb
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\SentiWordFind.exe
+D:\works\Workspace\~4.IR\SentiWordAnalyzer\SentiWordFind\bin\Debug\SentiWordFind.pdb
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\data\opFinder_orig.txt
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\data\opFinder.txt
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\data\opFinder_test.txt
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\data\opFinder_train.txt
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\SentiWordFind.exe.config
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\SentiWordFind.exe
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\SentiWordFind.pdb
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Coreferences.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Disambiguation.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Interfaces.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Lexicon.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.LinkGrammar.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Semantics.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Stanford.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Tagging.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Tagmatica.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Tools.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.GUI.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.NanoProlog.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.ShortestPath.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\IKVM.Runtime.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\TagParser.jar.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\log4net.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\IKVM.OpenJDK.ClassLibrary.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\StanfordParser.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\Lithium.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\HtmlLib.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\SmartThreadPool.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\Stanford-Parser.jar.dll
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.NanoProlog.xml
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\bin\Debug\StanfordParser.xml
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\obj\Debug\ResolveAssemblyReference.cache
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\obj\Debug\SentiWordFind.exe
+D:\works\Workspace\~1.IR\Project\Deduction\SentiWordAnalyzer\SentiWordFind\obj\Debug\SentiWordFind.pdb
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\SentiWordFind.exe.config
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\obj\Debug\SentiWordFind.exe
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\obj\Debug\SentiWordFind.pdb
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\data\opFinder_orig.txt
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\data\opFinder.txt
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\data\opFinder_test.txt
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\data\opFinder_train.txt
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\SentiWordFind.exe
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\SentiWordFind.pdb
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Coreferences.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Disambiguation.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Interfaces.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Lexicon.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.LinkGrammar.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Semantics.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Stanford.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Tagging.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Tagmatica.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.Antelope.Tools.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.GUI.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.NanoProlog.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.ShortestPath.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\IKVM.Runtime.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\TagParser.jar.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\log4net.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\IKVM.OpenJDK.ClassLibrary.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\StanfordParser.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\Lithium.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\HtmlLib.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\SmartThreadPool.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\Stanford-Parser.jar.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\Proxem.NanoProlog.xml
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\StanfordParser.xml
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\QuickGraph.Data.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\QuickGraph.dll
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\QuickGraph.xml
+C:\Users\yu\Documents\Visual Studio 2008\Projects\SentiWordAnalyzer\SentiWordFind\bin\Debug\QuickGraph.Data.xml

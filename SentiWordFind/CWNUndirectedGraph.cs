@@ -1,0 +1,158 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+//QuickGraph library. it is a conversion of C++ boost into C#
+using QuickGraph;
+using QuickGraph.Algorithms;
+using QuickGraph.Algorithms.ConnectedComponents;
+
+//
+using Proxem.Antelope.Lexicon;
+//using Proxem.Antelope;
+
+namespace SentiWordFind
+{
+    class CWNUndirectedGraph
+    {
+        private static string ctProxemDataFile = "C:\\Program Files\\Proxem\\Antelope\\data\\Proxem.Lexicon.dat";
+        //one reference to Wordnet per class, not per object
+        private static ILexicon lexiconWN = null;
+
+        private UndirectedGraph<IConcept, Edge<IConcept>> undirectedWNGraph = new UndirectedGraph<IConcept, Edge<IConcept>>(false);
+        private Dictionary<string, ILemma> dictWords = null;
+        private ConnectedComponentsAlgorithm<IConcept, Edge<IConcept>> m_connectedComponents = null;
+
+        private int m_iLemmaCount = 0;
+        private int m_iSynsetCount = 0;
+        private int m_iComponentCount = 0;
+
+        public CWNUndirectedGraph(ILexicon _lexicon)
+        {
+            lexiconWN = _lexicon;
+        }
+
+        public CWNUndirectedGraph()
+        {
+            lexiconWN = new Lexicon();
+            lexiconWN.LoadDataFromFile(ctProxemDataFile, null);
+
+            //createGraph(Proxem.Antelope.PartOfSpeech.Adjective);
+        }
+
+        public void createGraph(Proxem.Antelope.PartOfSpeech pos)
+        {
+            IEnumerable<ISynset> enumSynsets = lexiconWN.AllSynsets(pos);
+            int iLemmaCount = lexiconWN.LemmaCount(Proxem.Antelope.Language.English);
+            int iSynsetCount = lexiconWN.SynsetCount;
+            dictWords = new Dictionary<string, ILemma>();
+
+            foreach (ISynset synset in enumSynsets)
+            {
+                //System.Console.WriteLine(synset.SynsetId);
+                undirectedWNGraph.AddVertex(synset);
+                m_iSynsetCount++;
+                IList<ILemma> listLemmas = synset.Lemmas;
+                foreach (ILemma lemma in listLemmas)
+                {
+                    if (!dictWords.ContainsKey(lemma.Text))
+                    {
+                        m_iLemmaCount++;
+                        dictWords.Add(lemma.Text, lemma);
+                        undirectedWNGraph.AddVertex(lemma);
+                        Edge<IConcept> edge = new Edge<IConcept>(lemma, synset);
+                        undirectedWNGraph.AddEdge(edge);
+                    }
+                    else
+                    {
+                        ILemma existingLemma = dictWords[lemma.Text];
+                        Edge<IConcept> edge = new Edge<IConcept>(existingLemma, synset);
+                        undirectedWNGraph.AddEdge(edge);
+                    }
+                }
+            }
+        }
+
+        public void computeConnectedComponents()
+        {
+            m_connectedComponents = new ConnectedComponentsAlgorithm<IConcept, Edge<IConcept>>(undirectedWNGraph);
+            m_connectedComponents.Compute();
+            m_iComponentCount = m_connectedComponents.ComponentCount;
+        }
+
+
+        public IConcept getVertexAt(int index)
+        {
+            if (index >= 0)
+                return undirectedWNGraph.Vertices.ElementAt(index);
+
+            return null;
+        }
+
+        public int ComponentCount
+        {
+            get
+            {
+                return m_iComponentCount;
+            }
+        }
+
+        public int LemmaCount
+        {
+            get
+            {
+                return m_iLemmaCount;
+            }
+        }
+
+        public int SynsetCount
+        {
+            get
+            {
+                return m_iSynsetCount;
+            }
+        }
+
+        public IList<IConcept> getAdjacentVertices(IConcept concept)
+        {
+            IEnumerable<Edge<IConcept>> enumEdges = null;
+            enumEdges = undirectedWNGraph.AdjacentEdges(concept);
+
+            if (enumEdges == null)
+                return null;
+
+            List<IConcept> listConcepts = new List<IConcept>();
+            foreach (Edge<IConcept> edge in enumEdges)
+                listConcepts.Add(edge.Target);
+
+            return listConcepts;
+        }
+
+        public IList<IConcept> getAdjacentVertices(string word)
+        {
+            if (!dictWords.ContainsKey(word))
+                return null;
+
+            ILemma lemma = dictWords[word];
+            return getAdjacentVertices(lemma);
+        }
+
+        //it returns the index of the conneceted componnent "concept" is in
+        public int getConnectedComponentOf(IConcept concept)
+        {
+            int iCurrentComponent = -1;
+            try
+            {
+                iCurrentComponent = m_connectedComponents.Components[concept];
+                return iCurrentComponent;
+            }
+            catch (KeyNotFoundException)
+            {
+                return iCurrentComponent;
+            }
+        }
+    }
+
+
+}
